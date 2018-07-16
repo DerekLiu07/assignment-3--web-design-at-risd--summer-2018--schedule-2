@@ -33,7 +33,9 @@ nav ul li{
 }
 
 div{
-    height: 700px;
+    /* background-color:  */
+    height: 450px;
+
 }
 
 h1{
@@ -70,6 +72,11 @@ span{
     color:rgba(158,202,250,1);
     margin-top: -20px;
     margin-left:100px;
+}
+
+span:hover{
+  transition-duration:1s;
+  color:white;
 
 }
 
@@ -100,20 +107,31 @@ p{
 }
 
 
-#section-1-div {
-  /* position: relative; */
-  height:500px;
-
-}
-
-#section-2-div span{
+.section-2-div span{
   margin-left: 300px;
 }
 
-#section-2-div h3{
+.section-2-div h3{
   margin-left: 500px;
 }
 
-#section-2-div p{
+.section-2-div p{
   margin-left: 500px;
+}
+
+.section-3-div p{
+  margin-right:500px;
+}
+
+.section-4-div span{
+  margin-left: 600px
+}
+
+.section-4-div h3{
+  margin-left: 800px;
+}
+
+.section-4-div p{
+  margin-left: 800px;
+  margin-right: 100px;
 }
