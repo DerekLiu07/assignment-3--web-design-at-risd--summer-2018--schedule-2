@@ -12,19 +12,21 @@ body{
   /* border:1px solid green; */
 }
 
-/* body h1{
-  width:60vw;
-  height:50vh;
-  border:1px solid black;
-} */
+
+nav ul{
+  list-style: none;
+  text-align: right;
+  font-size: 2rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
 
 
-  /* position: absolute; */
-  /* position:fixed; */
-  /* left:880px;right:80px; */
+}
 
-  /* justify-content:flex-end; */
-
+nav ul li{
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+}
 
 img{
   border:1px solid green;
@@ -82,20 +84,6 @@ h2{
   top:200px; left:600px;
 
 }
-
-/* #navigation{
-  border:1px solid green;
-  position: fixed;
-  display:flex;
-  justify-content:space-around;
-  padding: 50px 0px 0px 80px;
-  margin: 50px -308px 0px 80px;
-}
-
-/* .flex-item{
-  width:130px;
-  height:100px;
-} */
 
 h4{
   /* border:1px solid black; */
