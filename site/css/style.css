@@ -19,7 +19,8 @@ nav ul{
   font-size: 2rem;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;
-
+  position: fixed;
+  top:100px;right:200px;
 
 }
 
@@ -110,7 +111,7 @@ p{
 }
 
 
-.section{
+section{
   /* border:1px solid green; */
   padding:0px 0px 0px 200px;
   margin:0px 0px 0px 0px;
@@ -122,12 +123,7 @@ p{
 
 }
 
-.section:hover{
-  transition-delay: 2s;
-
-}
-
-.section:nth-child(3){
+.section:nth-child(1){
   /* color:yellow; */
   padding-left: 600px;
 }
@@ -181,5 +177,9 @@ footer > p:nth-child(2){
   font-size: 1.5rem;
   letter-spacing: 1.2px;
   position: absolute;
+
+}
+
+.left {
 
 }
