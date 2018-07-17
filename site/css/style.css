@@ -183,6 +183,7 @@ h4 {
 
 footer a:link{
   text-decoration: underline;
+  color:rgba(158,202,250,1);
 }
 
 footer a:visited{
