@@ -10,7 +10,7 @@ a:link{
 }
 
 a{
-  transition: cubic-bezier(.17,.67,.96,-0.3)700ms 0s;
+  transition: cubic-bezier(.15,.81,.78,.4)700ms 0s;
 }
 
 a:visited{
