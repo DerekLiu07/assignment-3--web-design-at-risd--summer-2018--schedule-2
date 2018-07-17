@@ -1,6 +1,11 @@
 *{
   margin:0;
   padding:0;
+  /* overflow-x:hidden; */
+}
+
+body{
+  overflow-x: hidden;
 }
 
 a:link{
@@ -170,7 +175,7 @@ h4 {
   font-weight: 400;
   letter-spacing: 1.4px;
   position: fixed;
-  top: 655px;right:100px;
+  top: 655px;right:80px;
   z-index: 9;
   /* border:1px solid green; */
 }
