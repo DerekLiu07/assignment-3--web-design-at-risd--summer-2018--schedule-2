@@ -6,7 +6,7 @@
 a:link{
   text-align: justify;
   text-decoration:none;
-  color:wwhitew
+  color: white;
 }
 
 a{
@@ -24,7 +24,7 @@ a:hover{
   /* background-color:rgba(158,202,250,1); */
 }
 a:active{
-  color:white;
+  color:rgba(158,202,250,1);
 }
 
 .background-color{
@@ -161,4 +161,24 @@ p{
 .section-4-div p{
   margin-left: 800px;
   margin-right: 100px;
+}
+
+h4 {
+  /* url('../img/arrow.png'); */
+  font-size: 14px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  position: fixed;
+  top: 655px;right:100px;
+  z-index: 9;
+  /* border:1px solid green; */
+}
+
+footer a:link{
+  text-decoration: underline;
+}
+
+footer a:visited{
+  color:rgba(158,202,250,1);
 }
