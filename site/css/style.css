@@ -6,14 +6,15 @@
 a:link{
   text-align: justify;
   text-decoration:none;
+  color:wwhitew
+}
+
+a{
+  transition: cubic-bezier(.17,.67,.96,-0.3)700ms 0s;
 }
 
 a:visited{
   color: #808080;
-}
-
-a:active{
-  color:white;
 }
 
 
@@ -22,9 +23,8 @@ a:hover{
   Color:white;
   /* background-color:rgba(158,202,250,1); */
 }
-
-a{
-  transition: cubic-bezier(.17,.67,.96,-0.3)700ms 0s;
+a:active{
+  color:white;
 }
 
 .background-color{
